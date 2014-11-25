@@ -1,0 +1,62 @@
+@font-face {
+    font-family: computed;
+    src: url(../fonts/Old%20computer%20St.ttf);
+}
+
+body{
+    background: url(../img/siteBackground.jpg) no-repeat center center;
+    background-size: cover;
+}
+h1{
+    font-family: computed,sans-serif;
+    color: black;
+    font-size: 30px;
+    margin-top: 10%;
+    text-align: center;
+}
+main{
+    margin: 0 auto;
+    width: 900px;
+    height: 500px;
+
+}
+#firstImage{
+    margin-left: 22%;
+}
+#gitHub{
+    display: block;
+    text-align: center;
+    margin-top: 2%;
+}
+img {
+    -webkit-filter: grayscale(100%);
+    margin-left: 2%;
+}
+img:hover{
+    -webkit-filter: grayscale(0%);
+    transition: 0.25s;
+}
+
+button{
+    width: 20%;
+    padding: 1%;
+    background-color: rgba(48,81,128,0.5);
+    border: 2px solid #2e5175;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    display: block;
+    margin-top: 2%;
+}
+a{
+    text-decoration: none;
+}
+button:hover {
+    background-color: rgba(48, 81, 128, 1);
+    cursor: pointer;
+    transition: 0.35s;
+}
+img {
+    -webkit-filter: grayscale(100%);
+}
